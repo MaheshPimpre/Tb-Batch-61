@@ -1,6 +1,7 @@
 package com.demoguru.test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -23,7 +24,7 @@ public class Test {
 				int max=Math.max(n,c);
 				String key=min+":"+max;
 				if(!us.contains(key)) {
-					result.add(Arrays.short(key));
+					result.add(Arrays.asList(Integer.parseInt(key)));
 				}
 				System.out.println("Pair found: "+n+ " + "+c+" = "+a);
 				return true;
