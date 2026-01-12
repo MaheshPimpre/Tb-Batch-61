@@ -23,7 +23,7 @@ public class Test {
 				int max=Math.max(n,c);
 				String key=min+":"+max;
 				if(!us.contains(key)) {
-					result.add(Arrays.)
+					//result.add()
 				}
 				System.out.println("Pair found: "+n+ " + "+c+" = "+a);
 				return true;
