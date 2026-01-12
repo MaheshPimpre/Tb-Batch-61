@@ -23,7 +23,7 @@ public class Test {
 				int max=Math.max(n,c);
 				String key=min+":"+max;
 				if(!us.contains(key)) {
-					//result.add()
+					result.add(Arrays.short(key));
 				}
 				System.out.println("Pair found: "+n+ " + "+c+" = "+a);
 				return true;
@@ -39,3 +39,4 @@ public class Test {
 		System.out.println("pair with sum "+ a + " - "+hasPrintWithSum );
 	}
 }
+
